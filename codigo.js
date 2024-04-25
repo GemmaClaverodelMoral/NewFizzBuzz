@@ -11,7 +11,7 @@ for ( let i = 1 ; i < numero ; i++ ) {
 function respuesta(i)
 {
     if (i % 15 === 0){ 
-        return "FIZZBUZZ"
+        return "FIZZ BUZZ"
     }
     if (i % 3 === 0){
         return "FIZZ"
