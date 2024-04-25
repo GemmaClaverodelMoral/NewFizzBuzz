@@ -4,7 +4,7 @@
 
 numero = 100;
 
-for ( let i = 1 ; i < numero ; i++ ) {
+for ( let i = 1 ; i <= numero ; i++ ) {
     document.write(`<p>${respuesta(i)}</p>`)
 }
 
